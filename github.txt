@@ -1,0 +1,7 @@
+Syncing a fork
+--------------------------
+git remote add upstream https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git
+Verify the new upstream repository you've specified for your fork.
+git remote -v
+git checkout master
+git merge upstream/master
